@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ping.eventbus.MainActivity">
+
+    <Button
+        android:id="@+id/jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到第二个页面"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送粘性事件到第二个页面"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="显示返回的结果:"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"/>
+</LinearLayout>

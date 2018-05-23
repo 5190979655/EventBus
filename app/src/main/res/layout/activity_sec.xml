@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ping.eventbus.MainActivity">
+
+    <Button
+        android:id="@+id/sendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主线程发送事件到第一个页面"/>
+
+    <Button
+        android:id="@+id/receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接收粘性事件数据"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="接收粘性事件的结果:"/>
+
+    <TextView
+        android:id="@+id/tv_receive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"/>
+
+</LinearLayout>
